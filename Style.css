@@ -1,5 +1,5 @@
 nav{
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #f1f1f1f1;
 }
 
@@ -23,12 +23,30 @@ nav ul li:hover {
     color: white;
 }
 
-@media all and (max-width: 400px){
+@media all and (max-width: 800px){
 
-    nav {
+    nav ul {
         flex-direction: column;
     }
     nav ul li {
         text-align: center;
     }
+}
+
+.container {
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.item1 {
+    background-color: green;
+    color: white;
+    width: 30%;
+}
+.item2 {
+    background-color: darkblue;
+    color: white;
+    width: 70%;
 }
